@@ -5,19 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1>Calculate the Hypotenuse</h1>
+    <h1><a class="active">Fun With Triangles</a></h1>
+    <h2 id="h2mainheader">How well do you know the Triangles ? Have fun with them here</h2>
+    <header class="topnav">
+        <nav>        
+        <a href="./isTriangle.html">Is Triangle ?</a>
+        <a href="./area.html">Area</a>
+        <a href="./hypotenuse.html">Hypotenuse</a>
+        <a href="./quiz.html">Quiz</a>
+    </nav>
+    </header>
 
-    <label >a = </label>
-    <input type="number" class="side-input"/>
+<div id="hypotenuse1">    
+    <h1>Calculate the Hypotenuse Value</h1>
 
-    <label>b = </label>
-    <input type="number" class="side-input"/>
+    <label >Height of Triangle </label>
+    <input type="number" class="side-input hypo1"/>
 
-    <button id="button">Calculate Hypotenuse</button>
-    <div id="output"></div>
+    <label>Base of Triangle</label>
+    <input type="number" class="side-input hypo1"/>
 
+    <button id="button" class="hypo1">Calculate Hypotenuse</button>
+    <div id="output" class="hypo1"></div>
+</div>
     <script src="./hypotenuse.js"></script>
 </body>
 </html>

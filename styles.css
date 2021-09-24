@@ -1,0 +1,111 @@
+header{
+    /* border-radius: 1rem; */
+    background:var(--primary-color);
+    color: #0e0f0f;
+    letter-spacing: 0.5px;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    
+
+    
+  }
+
+  .active{
+    display: block;
+    padding: bottom 61px;
+    text-align: center;
+    margin-top: 1rem;
+    background: cornsilk;
+    border-radius: 5px;
+    
+    
+      
+  }
+  header nav a{
+     
+    background: #84bdce;
+    color: black;
+    padding: 8px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  body{
+      background-color: aqua;
+  }
+  
+  #h2mainheader{
+      text-align: center;
+  }
+
+
+  /* IsTriangle CSS */
+
+  #isTriangle{
+      margin: auto;
+      background: rgb(245, 214, 214);
+      border-radius: 5px;
+      text-align: center;
+      
+
+  }
+
+  .angle-input{
+      display: block;
+      margin-bottom: 1rem;
+      margin-right: auto;
+      margin-left: auto;
+      
+  }
+
+  /* Area */
+
+  #area{
+    margin: auto;
+    background: rgb(245, 214, 214);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.area1{
+    display: block;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+/* Hypotenuse */
+
+#hypotenuse1{
+    margin: auto;
+    background: rgb(245, 214, 214);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.hypo1{
+    display: block;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+  
+
+/* quiz */
+
+#quizbox{
+    margin: auto;
+    background: rgb(245, 214, 214);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.question-container{
+    display: block;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
